@@ -4,25 +4,17 @@ width: 100vw;
 height: 100vh;
 }
 
-div.cuerpo {
-    font-size: 2cm;
-}
-
-.cuerpo{
-    color: white;
-    text-align: center;
-}
-.texto{
-    color: white;
-    text-align: center;
-}
 .medio{
     display: flex;
     flex-direction: row;
+    height: 70vh;
 }
 .horca{
     width: 50vw;
 }
-.palabra {
+.palabra{
+    background-color: black;
     width: 50vw;
+    text-align: center;
+    
 }
