@@ -1,7 +1,18 @@
 .container{
 background-color: rgb(19, 19, 59);
+width: 100vw;
+height: 100vh;
 }
 
 div.cuerpo {
     font-size: 2cm;
+}
+
+.cuerpo{
+    color: white;
+    text-align: center;
+}
+.texto{
+    color: white;
+    text-align: center;
 }
