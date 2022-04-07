@@ -1,6 +1,6 @@
 import { useState, useMemo, FormEvent } from "react";
 interface Props {
-  handleStart(players: string[]): void;
+  handleStart(palabras: string[]): void;
 }
 const Start = (props: Props) => {
   const { handleStart } = props;

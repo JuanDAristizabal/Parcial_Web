@@ -10,12 +10,12 @@ function App() {
         <h3>Encuentra la palabra - Ingrese una letra</h3>
         </div>
         <div className="medio">
-        <div className="horca">
-          <div className="cuerpo">
+          <div className="horca">
+            <div className="cuerpo">
+            </div>
           </div>
-        </div>
-        <div className="palabra">
-        </div>
+          <div className="palabra">
+          </div>
         </div>
         <div className="letras">
         </div>
