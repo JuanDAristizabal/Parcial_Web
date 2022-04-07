@@ -10,11 +10,10 @@ const Start = (props: Props) => {
     // newPalabra.splice(index, 1, event.currentTarget.value);
     setPalabra(newPalabra);
   };
-}
-//   const canStart = useMemo(
-//     () => palabras.every((palabra) => palabra.length > 0),
-//     [palabras]
-//   );
+  const canStart = useMemo(
+    () => palabras.every((palabra) => palabra.length > 0),
+    [palabras]
+  );
 //   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
 //     event.preventDefault();
 //     if (!canStart) return;
@@ -48,5 +47,5 @@ const Start = (props: Props) => {
 //       </form>
 //     </div>
 //   );
-// };
+};
 export default Start;
