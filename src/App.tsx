@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    // <div className="App">
       <div className='container'>
         <div className="texto">
         <h1><b>AHORCADO</b></h1>
@@ -14,6 +14,7 @@ function App() {
           <div className="cuerpo">
            <b className="cabeza">O</b>
            <b className="tronco">l</b>
+           <b className="tronco2">l</b>
            <b className="pataderec">/</b>
            <b className="pataizq">\</b>
            <b className="brazodere">/</b>
@@ -21,14 +22,12 @@ function App() {
           </div>
         </div>
         <div className="palabra">
-        dfsfds
         </div>
         </div>
         <div className="letras">
-          dfs
         </div>
       </div>
-    </div>
+    /* </div> */
   );
 }
 
