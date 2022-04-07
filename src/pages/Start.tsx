@@ -10,6 +10,7 @@ const Start = (props: Props) => {
     // newPalabra.splice(index, 1, event.currentTarget.value);
     setPalabra(newPalabra);
   };
+}
 //   const canStart = useMemo(
 //     () => palabras.every((palabra) => palabra.length > 0),
 //     [palabras]
@@ -48,4 +49,4 @@ const Start = (props: Props) => {
 //     </div>
 //   );
 // };
-// export default Start;
+export default Start;
