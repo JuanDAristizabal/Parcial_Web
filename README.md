@@ -1,3 +1,9 @@
+# Parcial Web
+Ricardo Alvarez
+
+Juan David Aristizabal
+
+Juan Jose Cadena
 
 # Getting Started with Create React App
 
