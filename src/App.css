@@ -16,3 +16,13 @@ div.cuerpo {
     color: white;
     text-align: center;
 }
+.medio{
+    display: flex;
+    flex-direction: row;
+}
+.horca{
+    width: 50vw;
+}
+.palabra {
+    width: 50vw;
+}
