@@ -1,3 +1,7 @@
 .container{
 background-color: rgb(19, 19, 59);
 }
+
+div.cuerpo {
+    font-size: 2cm;
+}
