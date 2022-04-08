@@ -14,18 +14,15 @@ export default (): ReturnValue => {
   useEffect(() => {
     if (status !== "started") return;
     
-    let winningPositionsIndex = 0;
     let winner: string | null = null;
     
   }, [palabras, status]);
 
   const handleStart = (palabras: string[]) => {
     setPalabras(palabras);
-    // setTurn("X");
     setStatus("started");
   };
   const handleRestart = () => {
-//     setBoard(Array(9).fill(""));
 //     setWinner("");
     setStatus("created");
   };
