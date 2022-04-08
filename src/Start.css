@@ -1,4 +1,6 @@
 .container {
+    height: 100 vh;
+    width: 100 vw;
     background-color: rgb(19, 19, 59);
 }
 

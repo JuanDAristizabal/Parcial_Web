@@ -10,14 +10,15 @@ function Game(){
         </div>
         <div className="medio">
             <div className="horca">
+            <img src={img} alt="" className="s" />
                 <div className="cuerpo">
                 </div>
             </div>
-            <div className="palabra">
+            <div className="letras">
             </div>
         </div>
-        <div className="letras">
-            <img src={img} alt="" className="s" />
+        <div className="palabra">
+            
         </div>
     </div>
     );
