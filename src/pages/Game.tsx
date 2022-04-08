@@ -1,4 +1,4 @@
-import '../App.css';
+import '../Game.css';
 import img from "../horca.png"
 
 function Game(){

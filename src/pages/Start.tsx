@@ -1,7 +1,10 @@
+import '../Start.css';
+import img from "../ahorcado.jpg"
 import { useState, useMemo, FormEvent } from "react";
 interface Props {
   handleStart(palabras: string[]): void;
 }
+
 const Start = (props: Props) => {
   const { handleStart } = props;
   const [palabras, setPalabra] = useState([""]);
@@ -20,10 +23,13 @@ const Start = (props: Props) => {
     handleStart(palabras);
   };
   return (
-    <div>
-      <h1>React Ahorcado</h1>
+    <div className="container">
+      <div className="texto">
+        <h1>React Ahorcado</h1>
+      </div>
       <form onSubmit={handleSubmit}>
-        <div>
+        <br />
+        <div className='palab'>
           <label htmlFor="palabra">Palabra</label>
           <input
             type="text"
@@ -31,13 +37,14 @@ const Start = (props: Props) => {
             onInput={(e) => handleInput(e, 0)}
           />
         </div>
-        <div>
+        <br />
+        <div className='boton'>
           <button type="submit" disabled={!canStart}>
             Iniciar
           </button>
         </div>
+        <img src="{img}" alt="" />
       </form>
-      
     </div>
   );
 };
