@@ -14,10 +14,10 @@ function App() {
             <div className="cuerpo">
             </div>
           </div>
-          <div className="palabra">
+          <div className="letras">
           </div>
         </div>
-        <div className="letras">
+        <div className="palabra">
         </div>
       </div>
     /* </div> */

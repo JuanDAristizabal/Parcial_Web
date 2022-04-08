@@ -2,15 +2,31 @@
 background-color: rgb(19, 19, 59);
 width: 100vw;
 height: 100vh;
-}
 
+}
+.texto{
+ width: 100vw;
+height: 7vh;
+color : white;
+text-align: center;
+}
 .medio{
     display: flex;
     flex-direction: row;
     height: 70vh;
+    width: 100vw;
+    position: relative;
 }
 .horca{
-    width: 50vw;
+    height: auto;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+}
+.letras{
+width: 50 vw;
+background-color:  antiquewhite;
 }
 .palabra{
     background-color: black;
