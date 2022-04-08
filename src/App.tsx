@@ -8,7 +8,7 @@ function App() {
     <div className='App'>
       {game.status === "created" && <Start handleStart={game.handleStart}/>}
 
-      {game.status === "started" && <Game />} 
+      {game.status === "started" && <Game palabra={game.palabra} />} 
     </div>
   );
 }

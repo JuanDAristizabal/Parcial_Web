@@ -1,7 +1,11 @@
 import '../Game.css';
 import img from "../horca.png"
+interface Props {
+    palabra: string;
+}
 
-function Game(){
+const Game = (props: Props) => {
+    const {palabra} = props;
     return (
     <div className='container'>
        <div className="texto">
@@ -18,7 +22,7 @@ function Game(){
             </div>
         </div>
         <div className="palabra">
-            
+            <h1>{palabra}</h1>
         </div>
     </div>
     );
