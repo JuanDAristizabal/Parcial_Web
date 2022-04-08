@@ -1,6 +1,7 @@
 import useHangman from './hooks/useHangman';
 import Game from './pages/Game';
 import Start from './pages/Start';
+import './App.css'
 
 function App() {
   const game = useHangman();
