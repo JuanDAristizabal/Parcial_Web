@@ -37,6 +37,7 @@ const Start = (props: Props) => {
           </button>
         </div>
       </form>
+      
     </div>
   );
 };

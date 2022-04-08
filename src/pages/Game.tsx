@@ -1,4 +1,5 @@
 import '../App.css';
+import img from "../horca.png"
 
 function Game(){
     return (
@@ -16,6 +17,7 @@ function Game(){
             </div>
         </div>
         <div className="letras">
+            <img src={img} alt="" className="s" />
         </div>
     </div>
     );
