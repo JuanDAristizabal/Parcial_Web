@@ -35,6 +35,7 @@ const Start = (props: Props) => {
             type="text"
             value={palabras[0]}
             onInput={(e) => handleInput(e, 0)}
+            className="LabelP"
           />
         </div>
         <br />
