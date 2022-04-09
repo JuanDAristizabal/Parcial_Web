@@ -1,5 +1,5 @@
 import '../Game.css';
-import img from "../horca.png"
+import img from "../imgs/horca.png"
 interface Props {
     palabra: string;
 }
