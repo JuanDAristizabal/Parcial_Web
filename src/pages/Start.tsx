@@ -1,4 +1,5 @@
 import '../Start.css';
+import img from "../imgs/Ahorcado_Inicio.png"
 import { useState, useMemo, FormEvent } from "react";
 interface Props {
   handleStart(palabras: string[]): void;
@@ -42,8 +43,12 @@ const Start = (props: Props) => {
             Iniciar
           </button>
         </div>
-        <img src="{img}" alt="" />
       </form>
+      <br />
+      <br />
+      <div className="imagen">
+        <img src={img} alt="" className="s" />
+      </div>
     </div>
   );
 };
