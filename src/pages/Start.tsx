@@ -1,5 +1,4 @@
 import '../Start.css';
-import img from "../ahorcado.jpg"
 import { useState, useMemo, FormEvent } from "react";
 interface Props {
   handleStart(palabras: string[]): void;
