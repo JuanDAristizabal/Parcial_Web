@@ -1,11 +1,13 @@
+import { useState } from 'react';
 import '../Game.css';
 import img from "../imgs/horca.png"
 interface Props {
-    palabra: string;
+    handleStart(palabras: string[]): void;
 }
 
 const Game = (props: Props) => {
-    const {palabra} = props;
+    const {handleStart} = props;
+    const [palabras, setPalabras] = useState([""]);
     return (
     <div className='container'>
        <div className="texto">
@@ -22,7 +24,8 @@ const Game = (props: Props) => {
             </div>
         </div>
         <div className="palabra">
-            <h1>{palabra}</h1>
+            <h1>{setPalabras}</h1>
+            {console.log(setPalabras)}
         </div>
     </div>
     );
