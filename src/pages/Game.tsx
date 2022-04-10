@@ -2,12 +2,12 @@ import { useState } from 'react';
 import '../Game.css';
 import img from "../imgs/horca.png"
 interface Props {
-    handleStart(palabras: string[]): void;
+    selectedWord: String;
+    correctLetters: String;
+    wrongLetters: String[];
 }
 
 const Game = (props: Props) => {
-    const {handleStart} = props;
-    const [palabras, setPalabras] = useState([""]);
     return (
     <div className='container'>
        <div className="texto">
@@ -21,11 +21,18 @@ const Game = (props: Props) => {
                 </div>
             </div>
             <div className="letras">
+            {props.wrongLetters.length > 0 && <p>Wrong</p>}
+            {props.wrongLetters.map((letter, i) => <span key={i}>{letter} - </span>)}
             </div>
         </div>
         <div className="palabra">
-            <h1>{setPalabras}</h1>
-            {console.log(setPalabras)}
+        {props.selectedWord.split('').map((letter, i) => {
+        return (
+          <span className="letter" key={i}>
+            {props.correctLetters.includes(letter) ? letter : ' _ '}
+          </span>
+        )
+      })}
         </div>
     </div>
     );

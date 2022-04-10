@@ -23,16 +23,15 @@ text-align: center;
     justify-content: center;
 }
 .letras{
-width: 50%;
-height: 100%;
-background-color:  rgb(196, 117, 15);
-text-align: center;
+    width: 50%;
+    height: 100%;
+    background-color:  rgb(196, 117, 15);
+    text-align: center;
 }
 .palabra{
-    background-color: black;
     height: 15vh;
     width: 100vw;
-    text-align: center;
+    text-align: center; 
     color: white;
-    
+    font-size: 30px;;
 }
