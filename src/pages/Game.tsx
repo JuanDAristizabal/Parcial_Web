@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Botones from '../components/Botones';
 import '../Game.css';
 import img from "../imgs/horca.png"
 interface Props {
@@ -33,6 +34,9 @@ const Game = (props: Props) => {
           </span>
         )
       })}
+        </div>
+        <div className='botones'>
+          <Botones />
         </div>
     </div>
     );

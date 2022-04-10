@@ -25,13 +25,26 @@ text-align: center;
 .letras{
     width: 50%;
     height: 100%;
-    background-color:  rgb(196, 117, 15);
     text-align: center;
+    color: white;
+    font-size: 30px;
 }
 .palabra{
-    height: 15vh;
+    height: 7.5vh;
     width: 100vw;
     text-align: center; 
     color: white;
-    font-size: 30px;;
+    font-size: 30px;
+}
+
+.botones{
+    height: 7.5vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center; 
+    color: white;
+    font-size: 30px;
+    background-color: aqua;
 }
