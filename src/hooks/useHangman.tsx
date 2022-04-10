@@ -12,11 +12,6 @@ export default (): ReturnValue => {
   const [correctLetters, setCorrectLetters] = useState([""]);
   const [wrongLetters, setWrongLetters] = useState([""]);
 
-  useEffect(() => {
-    if (status !== "started") return;
-    
-  }, [correctLetters, wrongLetters]);
-
   const handleStart = (palabras: string[]) => {
     setPalabras(palabras);
     setStatus("started");
@@ -25,6 +20,5 @@ export default (): ReturnValue => {
     setStatus("created");
   };
 
-  // return { board, status, winner, handleClick, handleRestart, handleStart };
   return {status, handleStart};
 };

@@ -1,33 +1,35 @@
 export default function Botones(){
+    let letras = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","Ñ","O","P","Q","R",
+                    "S","T","U","V","W","X","Y","Z"];
     return(
         <div>
-            <button>A</button>
-            <button>B</button>
-            <button>C</button>
-            <button>D</button>
-            <button>E</button>
-            <button>F</button>
-            <button>G</button>
-            <button>H</button>
-            <button>I</button>
-            <button>J</button>
-            <button>K</button>
-            <button>L</button>
-            <button>M</button>
-            <button>N</button>
-            <button>Ñ</button>
-            <button>O</button>
-            <button>P</button>
-            <button>Q</button>
-            <button>R</button>
-            <button>S</button>
-            <button>T</button>
-            <button>U</button>
-            <button>V</button>
-            <button>W</button>
-            <button>X</button>
-            <button>Y</button>
-            <button>Z</button>
+            <button>{letras[0]}</button>
+            <button>{letras[1]}</button>
+            <button>{letras[2]}</button>
+            <button>{letras[3]}</button>
+            <button>{letras[4]}</button>
+            <button>{letras[5]}</button>
+            <button>{letras[6]}</button>
+            <button>{letras[7]}</button>
+            <button>{letras[8]}</button>
+            <button>{letras[9]}</button>
+            <button>{letras[10]}</button>
+            <button>{letras[11]}</button>
+            <button>{letras[12]}</button>
+            <button>{letras[13]}</button>
+            <button>{letras[14]}</button>
+            <button>{letras[15]}</button>
+            <button>{letras[16]}</button>
+            <button>{letras[17]}</button>
+            <button>{letras[18]}</button>
+            <button>{letras[19]}</button>
+            <button>{letras[20]}</button>
+            <button>{letras[21]}</button>
+            <button>{letras[22]}</button>
+            <button>{letras[23]}</button>
+            <button>{letras[24]}</button>
+            <button>{letras[25]}</button>
+            <button>{letras[26]}</button>
         </div>
     );
 };

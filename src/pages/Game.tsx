@@ -9,6 +9,7 @@ interface Props {
 }
 
 const Game = (props: Props) => {
+  const {selectedWord, correctLetters, wrongLetters} = props
     return (
     <div className='container'>
        <div className="texto">
@@ -22,15 +23,15 @@ const Game = (props: Props) => {
                 </div>
             </div>
             <div className="letras">
-            {props.wrongLetters.length > 0 && <p>Wrong</p>}
-            {props.wrongLetters.map((letter, i) => <span key={i}>{letter} - </span>)}
+            {wrongLetters.length > 0 && <p>Wrong</p>}
+            {wrongLetters.map((letter, i) => <span key={i}>{letter} - </span>)}
             </div>
         </div>
         <div className="palabra">
-        {props.selectedWord.split('').map((letter, i) => {
+        {selectedWord.split('').map((letter, i) => {
         return (
           <span className="letter" key={i}>
-            {props.correctLetters.includes(letter) ? letter : ' _ '}
+            {correctLetters.includes(letter) ? letter : ' _ '}
           </span>
         )
       })}
