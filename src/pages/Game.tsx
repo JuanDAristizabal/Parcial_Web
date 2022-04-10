@@ -9,6 +9,9 @@ interface Props {
 }
 
 const Game = (props: Props) => {
+  const letras = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","Ñ","O","P","Q","R",
+  "S","T","U","V","W","X","Y","Z"];
+
   const {selectedWord, correctLetters, wrongLetters} = props
     return (
     <div className='container'>
@@ -37,7 +40,7 @@ const Game = (props: Props) => {
       })}
         </div>
         <div className='botones'>
-          <Botones />
+        <Botones />
         </div>
     </div>
     );
